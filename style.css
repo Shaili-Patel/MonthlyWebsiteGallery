@@ -1,0 +1,56 @@
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1{
+    font-family: "canvas-script", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 90px;
+  transition: color 0.2s;
+}
+
+h1:hover {
+  color: rgb(128, 205, 211);
+}
+
+h2{
+    font-family: "canvas-script", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 90px;
+    transition: color 0.2s;
+    color: #dd5d6e;
+}
+
+.gif{
+    height: 400px;
+    width: 500px;
+}
+
+.my-button {
+    background-color: rgb(107, 171, 175);
+    color: white;             
+    border: none;             
+    padding: 10px 20px;     
+    font-size: 17px;
+    font-weight: bold;         
+    border-radius: 5px;      
+    cursor: pointer;          
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.my-button:hover {
+    background-color: rgb(70, 103, 105); 
+    color: white;              
+    transform: scale(1.15);
+}
+
+hr {
+    border: none;           
+    height: 4px;              
+    background-color: #dd5d6e; 
+    margin: 20px 0;          
+}
